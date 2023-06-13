@@ -7,7 +7,7 @@ namespace MagicVilla_API.Modelos
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] //autoincrementable de 1 a 1
-        public int id { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Detalle { get; set; }
         [Required]

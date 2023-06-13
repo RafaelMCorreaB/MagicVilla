@@ -18,7 +18,7 @@ namespace MagicVilla_API.Datos
                 (
                     new Villa()
                         {
-                            id = 1,
+                            Id = 1,
                             Nombre = "Villa Real",
                             Detalle = "cabañas, naturaleza",
                             ImagenUrl = "",
@@ -31,7 +31,7 @@ namespace MagicVilla_API.Datos
                         },
                     new Villa()
                     {
-                        id = 2,
+                        Id = 2,
                         Nombre = "Villa Nueva",
                         Detalle = "cabañas, mar",
                         ImagenUrl = "",
